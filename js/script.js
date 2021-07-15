@@ -80,3 +80,25 @@
 //    console.log('htllo');
 //    id =  setTimeout( log, 500);
 // }, 500);
+
+//...........................................Lesson№4..................................................
+
+// const now = new Date(); 
+
+// console.log(now);
+// console.log(now.getHours());
+// console.log(now.getMonth());
+// console.log(now.getUTCHours());
+// console.log(now.getTimezoneOffset());
+
+// let start = new Date();
+
+// for (let i = 0; i<10000; i++){
+//    let some = i**3;
+// }
+// let end = new Date();
+
+// console.log(start);
+// console.log(end - start);
+
+// alert(`${end-start}`);
