@@ -128,3 +128,77 @@
 
 // console.log(ivan);
 // console.log(alex);
+
+//...........................................Lesson№10.................................................
+
+// function showThis(a, b) {
+//    console.log(this);
+//    function sum() {
+//       console.log(this);
+//       return a+b;
+//    }
+//    console.log(sum());
+// }
+
+// showThis(4, 5);
+
+// const obj = {
+//    a: 20,
+//    b:30,
+//    sum: function() {
+//       console.log(this);
+//    }
+// };
+
+// obj.sum();
+
+// function User(name, id) {
+//    this.name = name;
+//    this.id = id;
+//    this.human = true;
+
+// }
+// let ivan = new User('Ivan', 23);
+
+// function sayName(surname) {
+//    console.log(this);
+//    console.log(this.name + surname);
+// }
+
+// const user = {
+//    name: 'John'
+// };
+
+// sayName.call(user, 'Smith');
+// sayName.apply(user, ['smith']);
+
+// function count (num) {
+//    return this*num;
+// }
+
+// const double = count.bind(2);
+
+// const btn = document.querySelector('.btn');
+
+// btn.addEventListener('click', (e) => {
+//    e.target.style.backgroundColor = 'red';
+// });
+
+// const obj = {
+//    num: 5,
+//    sayNumner: function () {
+//       const say = () => {
+//          console.log(this);
+//       };
+
+//       say();
+//    }
+// };
+
+// obj.sayNumner();
+
+// const double = (a) => {
+//    return a*2;
+// };
+
+//...........................................Lesson№11.................................................
