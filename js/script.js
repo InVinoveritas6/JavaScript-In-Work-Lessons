@@ -236,4 +236,16 @@
 // console.log(square.calcArea());
 // console.log(long.calcArea());
 
-//...........................................Lesson№12.................................................
+//...........................................Lesson№13.................................................
+
+// const log = function (a, b, ...rest) {
+//    console.log(a, b, rest);
+// }
+
+// log('a', 'b', 's', 'g');
+
+// function calcOrDouble(number, basis = 2) {
+//    console.log(number * basis);
+// }
+
+// calcOrDouble(3);
